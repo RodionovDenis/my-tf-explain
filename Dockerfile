@@ -7,6 +7,15 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y wget mc tmux nano build-essential rsync libgl1 python3-pip
 
+
+
+RUN pip install tf-explain
+RUN pip install tensorflow==2.6.0
+RUN pip install keras==2.6.0
+RUN pip install opencv-python
+RUN pip install Pillow
+
 COPY test.py /test.py
+COPY images /images
 
 CMD python3 test.py
