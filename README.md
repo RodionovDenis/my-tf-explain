@@ -6,6 +6,6 @@
 
 `docker build . --tag explainer`
 
-`docker run -v $(pwd)/images/actual:/src test`
+`docker run -v $(pwd)/images/actual:/src explainer`
 
 `sudo chown -R $(whoami):$(whoami) actual`
