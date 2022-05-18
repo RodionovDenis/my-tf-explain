@@ -2,7 +2,7 @@
 
 Оригинальный проект : https://github.com/sicara/tf-explain
 
-Склонируйте проект
+Склонируйте репозиторий
 
 `git clone https://github.com/RodionovDenis/my-tf-explain.git`
 
