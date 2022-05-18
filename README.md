@@ -1,6 +1,6 @@
 # my-tf-explain
 
-Original project : https://github.com/sicara/tf-explain
+Оригинальный проект : https://github.com/sicara/tf-explain
 
 Склонируйте проект
 
